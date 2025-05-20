@@ -1,0 +1,22 @@
+[project]
+name = "tidyverse"
+version = "0.1.0"
+description = "convenience package importing standard packages"
+# readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "pandas",
+    "seaborn",
+    "toolz", 
+    "tqdm",
+    "matplotlib",
+    "plotnine",
+]
+authors = [
+    {name = "redst4r", email = "redst4r@web.de"},
+]
+license = "BSD-2-Clause"
+
+[project.urls]
+Homepage = "https://github.com/redst4r/pytidyverse.git"
